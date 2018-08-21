@@ -1,0 +1,5 @@
+{
+    "require": {
+        "cakephp/chronos": "^1.2"
+    }
+}
