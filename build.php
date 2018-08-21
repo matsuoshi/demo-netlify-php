@@ -8,7 +8,7 @@ $now = Chronos::now()->format('c');
 
 $html = <<< EOF
     <p>version: {$php_version}</p>
-    <p>{$now}</p>
+    <p>now: {$now}</p>
 EOF;
 
 file_put_contents('public/index.html', $html);
