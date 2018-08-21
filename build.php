@@ -7,6 +7,7 @@ $now = Chronos::now()->format('c');
 $php_version = phpversion();
 
 $html = <<< EOF
+    <h1>🍺</h1>
     <p>now: {$now}</p>
     <p>version: {$php_version}</p>
 EOF;
